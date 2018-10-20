@@ -28,12 +28,18 @@
 ;;; Code:
 
 (defun ox-mdx-deck--export-to-file (async subtreep visible-only body-only)
+  "Export the current buffer to an .mdx file.
+
+For more information on ASYNC SUBTREEP VISIBLE-ONLY and BODY-ONLY see `org-export-define-backend'"
   (ignore async subtreep visible-only body-only)
   (org-export-to-file 'mdx-deck
       (concat (file-name-sans-extension (buffer-file-name (current-buffer)))
               ".mdx")))
 
 (defun ox-mdx-deck--export-to-buffer (async subtreep visible-only body-only)
+  "Export the current buffer to a new mdx buffer.
+
+For more information on ASYNC SUBTREEP VISIBLE-ONLY and BODY-ONLY see `org-export-define-backend'"
   (ignore async subtreep visible-only body-only)
   (org-export-to-buffer 'mdx-deck "*mdx-deck export*"))
 
