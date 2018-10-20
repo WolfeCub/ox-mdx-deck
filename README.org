@@ -1,2 +1,5 @@
 * Mdx Deck Org Exporter
-
+  This is a simple exporter for [[https://github.com/jxnblk/mdx-deck][mdx-deck]] that is based on the
+  =blackfriday= markdown exporter. Any code blocks marked =rjsx=
+  will be copied verbatim into the output document. This allows you
+  to write react that will be complied by =mdx-deck=.
