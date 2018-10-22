@@ -27,6 +27,10 @@
 
 ;;; Code:
 
+;;; Dependencies
+
+(require 'ox-hugo)
+
 (defun ox-mdx-deck--export-to-file (async subtreep visible-only body-only)
   "Export the current buffer to an .mdx file.
 
