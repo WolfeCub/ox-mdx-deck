@@ -6,7 +6,7 @@
 ;; Keywords: lisp org ox mdx deck
 ;; Version: 0.0.1
 ;; URL: https://github.com/WolfeCub/ox-mdx-deck/
-;; Package-Requires: ((emacs "24") ox-hugo)
+;; Package-Requires: ((emacs "24") (ox-hugo "0.7"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 
 ;;; Commentary:
 
-;; Put a description of the package here
+;; An exporter from org-mode to mdx-deck.
 
 ;;; Code:
 
