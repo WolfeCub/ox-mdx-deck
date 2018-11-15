@@ -1,5 +1,5 @@
 * Mdx Deck Org Exporter
-  This is a simple exporter for [[https://github.com/jxnblk/mdx-deck][mdx-deck]] that is based on the
-  =blackfriday= markdown exporter. Any code blocks marked =rjsx=
+  This Emacs package exports [[https://orgmode.org/][Org-mode documents]] to [[https://github.com/jxnblk/mdx-deck][mdx-deck]] using the
+  [[https://github.com/russross/blackfriday][blackfriday markdown exporter]]. Any code blocks marked =rjsx=
   will be copied verbatim into the output document. This allows you
-  to write react that will be complied by =mdx-deck=.
+  to write react that will be compiled by =mdx-deck=.
